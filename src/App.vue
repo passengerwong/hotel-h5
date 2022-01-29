@@ -1,19 +1,19 @@
-<script setup lang="ts">
-// This starter template is using Vue 3 <script setup> SFCs
-// Check out https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup
-</script>
+<script lang="ts">
+import { defineComponent } from 'vue';
 
+export default defineComponent({
+  name: 'app',
+  setup() {
+    console.log('-----')
+  }
+})
+</script>
 <template>
-  <van-button type="primary">主要按钮</van-button>
+  <div>ddd</div>
 </template>
 
-<style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+<style scoped lang="scss">
+div {
+  color: $primary-color;
 }
 </style>
