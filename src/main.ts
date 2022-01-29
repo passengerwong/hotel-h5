@@ -3,6 +3,6 @@ import App from "./App.vue";
 
 import { Button } from "vant";
 
-console.log("---fdfd");
+import "./tools/rem";
 
 createApp(App).use(Button).mount("#app");
