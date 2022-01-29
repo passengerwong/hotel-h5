@@ -1,6 +1,8 @@
-import { createApp } from 'vue'
-import App from './App.vue'
+import { createApp } from "vue";
+import App from "./App.vue";
 
-import { Button } from 'vant'
+import { Button } from "vant";
 
-createApp(App).use(Button).mount('#app')
+console.log("---fdfd");
+
+createApp(App).use(Button).mount("#app");

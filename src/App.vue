@@ -1,12 +1,12 @@
 <script lang="ts">
-import { defineComponent } from 'vue';
+import { defineComponent } from "vue";
 
 export default defineComponent({
-  name: 'app',
+  name: "app",
   setup() {
-    console.log('-----')
-  }
-})
+    console.log("-----");
+  },
+});
 </script>
 <template>
   <div>ddd</div>
